@@ -9,7 +9,29 @@ Technologies Used
 
     Python: Primary programming language
     Libraries: NLTK, sklearn, matplotlib, seaborn
-    
-Results and Discussion
 
-This analysis reveals distinct semantic landscapes for each character, reflecting their unique traits and relationships within the show. The results section in the Jupyter notebook discusses the implications of these findings for understanding character dynamics and narrative development.
+Key Highlights
+
+Data Pre-processing
+
+    Tokenization, conversion to lowercase for normalization.
+    Removal of stopwords, punctuation, non-alphabetic characters, and single letters.
+    Expansion of contractions and lemmatization to ensure consistency and focus on meaningful words.
+
+Feature Extraction and Transformation
+
+    Utilization of n-grams to capture context and word order.
+    Application of POS tagging and selective sentiment analysis.
+    Implementation of TfidfVectorizer for converting text documents into a matrix of TF-IDF features.
+    Use of SelectKBest with chi-squared for feature selection.
+
+Model Training and Validation
+
+    Extensive parameter search to optimize model configurations.
+    Cross-validation to fine-tune model parameters and assess model performance across different setups.
+
+Analysis of Results
+
+    Evaluation of the similarity matrix to identify character relationships and dialogue similarities.
+    Examination of the mean rank, cosine similarity, and accuracy across different stages of the project to measure performance improvements.
+    
