@@ -1,10 +1,12 @@
 # Friends-Character-Similarity-Analysis
 This project explores the application of vector space models in natural language processing to quantify the similarity between characters from the popular TV show "Friends". By analyzing dialogue scripts, the project employs semantic analysis techniques to understand character interactions and similarities.
+
 Key Features
 
     Semantic Analysis: Utilizes techniques like TF-IDF and cosine similarity to analyze character dialogues.
     Character Profiling: Builds semantic profiles for each main character to explore underlying patterns and relationships.
     Visualization: Includes visual representations of character similarities and clustering.
+    
 Technologies Used
 
     Python: Primary programming language
